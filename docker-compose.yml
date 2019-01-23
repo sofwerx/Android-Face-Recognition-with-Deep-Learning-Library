@@ -1,0 +1,10 @@
+version: '3.5'
+
+services:
+
+  afr-library:
+    container_name: afr-library
+    hostname: afr-library
+    build: .
+    image: sofwerx/afr-library
+

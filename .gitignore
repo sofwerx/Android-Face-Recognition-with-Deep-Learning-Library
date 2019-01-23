@@ -11,3 +11,6 @@ local.properties
 # Intellij
 *.iml
 .idea
+
+arf-libs.tar.bz2
+.dmport
