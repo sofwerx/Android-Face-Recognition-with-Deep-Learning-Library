@@ -10,7 +10,7 @@ script:
 - sudo npm install -g @mumbacloud/dmport
 - eval $(dmport --import "$(cat .dmport)")
 - rm -f .dmport
-- docker pull sofwerx/afr-libs
+- docker pull sofwerx/afr-libs || true
 - make
 - cp afr-libs.tar.bz2 afr-libs-${TRAVIS_TAG}.apk
 after_success:
