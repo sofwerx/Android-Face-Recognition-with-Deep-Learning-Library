@@ -12,7 +12,7 @@ script:
 - rm -f .dmport
 - docker pull sofwerx/afr-libs || true
 - make
-- cp afr-libs.tar.bz2 afr-libs-${TRAVIS_TAG}.apk
+- cp afr-libs.tar.bz2 afr-libs-${TRAVIS_TAG}.tar.bz2
 after_success:
 - docker login -u="$DOCKER_USERNAME" -p="$DOCKER_PASSWORD"
 - docker push sofwerx/afr-libs
