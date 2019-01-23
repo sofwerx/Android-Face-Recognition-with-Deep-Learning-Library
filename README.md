@@ -1,4 +1,7 @@
 # Android Face Recognition with Deep Learning - Library
+
+[![Build Status](https://travis-ci.org/sofwerx/Android-Face-Recognition-with-Deep-Learning-Library.svg?branch=master)](https://travis-ci.org/sofwerx/Android-Face-Recognition-with-Deep-Learning-Library)
+
 ## Acknowledgements
 This library was developed by Michael Sladoje and Mike Schälchli during a bachelor thesis at the Zurich University of Applied Sciences.
 
